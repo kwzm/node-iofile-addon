@@ -1,0 +1,20 @@
+# node-iofile-addon
+A node c++ addon to I/O file. Just a example to learn how to write c++ addon.
+
+## Usage
+
+1、 Install dependences
+``` bash
+$ npm install
+```
+
+2、 Use node-gyp to compile native addon module for Node.js 
+``` bash
+$ node-gyp rebuild
+```
+
+3、 Run demo 
+``` bash
+$ npm start
+```
+
