@@ -13,8 +13,18 @@ $ npm install
 $ node-gyp rebuild
 ```
 
-3、 Run demo 
+3、 Import functions 
 ``` bash
-$ npm start
+$ const { readFile, writeFile } = require('./build/Release/addon.node');
+$ const buffer = readFile('filePath');
+
+$ writeFile(buffer, 'filePath');
 ```
 
+
+
+## API
+
+1、Buffer readFile(string filePath)
+
+2、void writeFile(Buffer content,  string filePath)
