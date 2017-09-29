@@ -5,7 +5,8 @@
   "main": "addon.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "native": "node addon.js"
+    "native": "node addon.js",
+    "boost": "node addon_boost.js"
   },
   "author": "kwzm",
   "license": "ISC",
